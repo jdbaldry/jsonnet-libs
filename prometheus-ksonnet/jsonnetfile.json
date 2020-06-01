@@ -44,7 +44,7 @@
             "name": "oauth2_proxy",
             "source": {
                 "git": {
-                    "remote": "https://github.com/grafana/jsonnet-libs",
+                    "remote": "https://github.com/jdbaldry/jsonnet-libs",
                     "subdir": "oauth2-proxy"
                 }
             },
@@ -54,7 +54,7 @@
             "name": "ksonnet-util",
             "source": {
                 "git": {
-                    "remote": "https://github.com/grafana/jsonnet-libs",
+                    "remote": "https://github.com/jdbaldry/jsonnet-libs",
                     "subdir": "ksonnet-util"
                 }
             },

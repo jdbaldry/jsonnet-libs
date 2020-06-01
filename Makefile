@@ -13,3 +13,7 @@ lint:
 				fi; \
 		done; \
 		exit $$RESULT
+
+.PHONY: rewrite
+rewrite:
+		find . -type f -exec sed -i 's/github.com\/grafana\/jsonnet-libs/github.com\/jdbaldry\/jsonnet-libs/g' {} \;

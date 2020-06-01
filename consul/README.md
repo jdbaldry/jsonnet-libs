@@ -25,7 +25,7 @@ $ cd <application name>
 
 ```
 $ go get github.com/jsonnet-bundler/jsonnet-bundler/cmd/jb
-$ jb install https://github.com/grafana/jsonnet-libs/consul
+$ jb install https://github.com/jdbaldry/jsonnet-libs/consul
 ```
 
 - Assuming you want to run in the default namespace ('environment' in ksonnet parlance), add the following to the file `environments/default/main.jsonnet`:
