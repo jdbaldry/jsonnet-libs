@@ -14,7 +14,7 @@
             "name": "prometheus-mixin",
             "source": {
                 "git": {
-                    "remote": "https://github.com/prometheus/prometheus",
+                    "remote": "https://github.com/jdbaldry/prometheus",
                     "subdir": "documentation/prometheus-mixin"
                 }
             },
